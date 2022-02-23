@@ -1,3 +1,5 @@
+import 'package:get/get_rx/src/rx_types/rx_types.dart';
+
 class Product {
   final int? id;
   final String? productName;
@@ -12,4 +14,6 @@ class Product {
     this.productDescription,
     this.price,
   });
+
+  final isFavorite = false.obs;
 }
